@@ -1,0 +1,103 @@
+ #inicio{
+	 padding:20px;
+	 background:white;
+	 width:100%;
+	 height:100vh;
+	  border-radius:10px;
+	 box-shadow:10px 10px 10px #ccc;
+ 
+ }
+ 
+ #imagem{
+	 float:left;
+	 margin:10px;
+ }
+ #texto h1{
+	 color:#005C9E;
+	 font-size:40px;
+	 font-family:calibri;
+ }
+ 
+ #texto p{
+	font-size:16px;
+	font-family:calibri;
+ }
+ 
+ 
+ #cursos{
+	 width:100%;
+	 height:100vh;
+	 background:white;
+	 border:2px solid;
+	 border-radius:10px;
+	 box-shadow:10px 10px 10px #ccc;
+	 margin:10px;
+	 padding:20px;
+	 
+ }
+ #matriculas{
+	 width:100%;
+	 height:100vh;
+	 background:white;
+	 border:2px solid;
+	 border-radius:10px;
+	 box-shadow:10px 10px 10px #ccc;
+	 margin:10px;
+	 padding:20px;
+	 
+ }
+ 
+ }
+
+ form input, form select, form submit{
+	display:block;
+	
+ }
+ form label{
+	font-weight:bold;
+ }
+
+ .linha{
+	display:inline-block;
+ }
+
+ form{
+	border:2px solid black;
+	padding:8px;
+	margin:10px;
+	border-radius:10px;
+	box-shadow:10px 10px 15px #ccc;
+	background:#F0F0F0
+ }
+ 
+ 
+/* FAZENDO O MENU */
+#menu{
+	background:#005C9E;
+	color:white;
+	height:30px;
+		
+}
+
+#menu ul{ 
+  display:flex;
+  flex-direction:row;
+  justify-content:end;
+  
+}
+
+#menu ul li a{
+	color:white;
+	text-decoration:none;
+}
+
+#menu ul li {
+	list-style:none;
+	margin-right:20px;
+	padding:5px;
+}
+
+#menu ul li:hover{
+	background:#071F31;
+	color:#C3E1F6;
+}
